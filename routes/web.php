@@ -24,4 +24,5 @@ Route::get('/api/recipes/{page}', [RecipeController::class, 'getRecipesApi']);
 Route::get('/api/recipe/{id}', [RecipeController::class, 'getRecipeApi']);
 Route::get('/api/category/{id}/{page}', [RecipeController::class, 'getRecipesByCategoryApi']);
 
+
 require __DIR__ . '/auth.php';
